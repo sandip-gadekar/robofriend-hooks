@@ -31,7 +31,7 @@ export class App extends Component {
     //console.log(filteredRobots);
     return (
       <div>
-        <h1 className='tc'>ROBO FRIENDS</h1>
+        <h1 className='tc'>ROBO FRIENDSs</h1>
         <Search onsearch={this.onsearch} />
         <Scroll>
           <CardList robots={filteredRobots} />
